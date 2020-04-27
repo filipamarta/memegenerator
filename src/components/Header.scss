@@ -1,0 +1,36 @@
+@import '../styles/_general.scss';
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #F6FF00;
+    justify-content: center;
+    @media screen and (max-width: 630px) {
+        height: auto;
+        padding: 20px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        height: 80%;
+        @media screen and (max-width: 630px) {
+            height: 60px;
+        }
+    }
+
+    h1 {
+        font-family: 'Sniglet', cursive;
+        font-weight: 800;
+        color:#2500FF;
+        font-size: 50px;
+        margin-left: 40px;
+        text-transform: uppercase;
+        @media screen and (max-width: 630px) {
+            font-size: 3rem;
+            margin: 20px 0 0 0;
+            line-height: 47px;
+        }
+    }
+}
